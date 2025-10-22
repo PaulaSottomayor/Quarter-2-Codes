@@ -1,0 +1,6 @@
+distance_traveled = float(input("Enter distance traveled (in kilometers): "))
+fuel_consumed = float(input("Enter fuel consumed (in liters): "))
+
+fuel_efficiency = distance_traveled / fuel_consumed
+
+print (f"Fuel Efficiency: {fuel_efficiency:.1f} km/L")
